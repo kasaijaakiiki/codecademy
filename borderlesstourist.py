@@ -75,6 +75,7 @@ def get_attractions_for_traveler(traveler):
   traveler_attractions = find_attractions(traveler_destination, traveler_interests)
   interests_string = ("Hi ", traveler[0], "we think you'll like these places around", traveler_destination)
   for attra in range(len(traveler_attractions)):
+    # Check if the attraction we are on is the last one
     if traveler_attractions[-1] == traveler_attractions[attra]:
       interests_string += "the", traveler_attractions[attra]
     else:
