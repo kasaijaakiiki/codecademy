@@ -1,5 +1,5 @@
 destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA", "São Paulo, Brazil", "Cairo, Egypt"]
-
+# test_traveler = Name, destination, interest, Tag
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
 #get destination Indexs
@@ -39,7 +39,7 @@ def add_attraction(destination, attraction):
 add_attraction("Los Angeles, USA", ['Venice Beach', ['beach']])
 print('Add Attractions:', attractions)
 
-# Adding more attractions
+# Adding more attractions with Tags
 add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
 add_attraction("Paris, France", ["Arc de Triomphe", ["historical site", "monument"]])
 add_attraction("Shanghai, China", ["Yu Garden", ["garden", "historical site"]])
